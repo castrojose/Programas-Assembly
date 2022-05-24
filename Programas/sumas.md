@@ -1,4 +1,4 @@
-Aritmética con variables enteras (versión 2)
+
 
 ```asm
 @   sum2.s

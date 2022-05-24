@@ -1,4 +1,4 @@
-# Aritmética con variables enteras
+
 
 ```asm
 @ sum1.s
@@ -46,4 +46,4 @@ main:
         pop 	{ip, pc}	@ pop return address into pc
 ```
 
-![](sum1.png)
+

@@ -1,4 +1,4 @@
-# Pasar parámetros por valor
+
 
 ```asm
 @  sum3.s
@@ -36,7 +36,7 @@ sumFunc:
 	add	r0, r1, r2
 	pop	{ip, pc}
 
-@ ---------------------------------------
+
 @ main: passes 2 ints to sumFunc and prints
 @ the resulting value using printf	
 main:   push 	{ip, lr}	@ push return address + dummy register

@@ -1,5 +1,5 @@
 
-# Pasar parámetros por referencia
+
 
 ```asm
 @ sum4.s

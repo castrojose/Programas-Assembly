@@ -1,4 +1,4 @@
-# Divide 9 entre 3
+
 
 ```asm
 .global main
@@ -18,7 +18,7 @@ thumbcode:      MOV R0, #9     //Se almacena el valor del numerador
 		MOV R1, #3     //Se almacena el valor del denominador
 		MOV R3, #0     //Se utiliza como contador para saber cuantas veces cabe
 		
-loop:    	ADD R3, #1    //Se aumenta el contador en 1
+loop:    	ADD R3, #1    
 		SUB R0, R1    //Se resta valor del denominador al valor del numerador
 		BGE loop      //Se preguna se el resultado es un valor mayor o igual
 		SUB R3, #1    //Resultado de la división

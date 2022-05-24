@@ -1,14 +1,6 @@
 
 
-/*
-Title: Practica 0 Templete para programa ARM Assembly   
-Filename: hello.s
-Autor: ____Aqui su nombre___
-Date: ______
-Description : Hola Mundo en ARM Assembly
-Imput: -
-Ouput: HOLA MUNDO to console
-*/
+
 
 @ hello.s programa usa los recursos básicos
 .section	.data
